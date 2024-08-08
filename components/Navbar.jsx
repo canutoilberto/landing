@@ -13,7 +13,7 @@ const Navbar = () => {
           prefetch={false}
         >
           <PencilIcon className="h-6 w-6" />
-          <span className="sr-only">Jane Doe Portfolio</span>
+          <span className="sr-only">NenoLand Portfolio</span>
         </Link>
         <div className="ml-auto flex items-center gap-4 sm:gap-6">
           <Sheet>
@@ -30,21 +30,21 @@ const Navbar = () => {
                   className="text-sm font-medium hover:underline underline-offset-4"
                   prefetch={false}
                 >
-                  Work
+                  Projetos
                 </Link>
                 <Link
                   href="#"
                   className="text-sm font-medium hover:underline underline-offset-4"
                   prefetch={false}
                 >
-                  About
+                  Sobre
                 </Link>
                 <Link
                   href="#"
                   className="text-sm font-medium hover:underline underline-offset-4"
                   prefetch={false}
                 >
-                  Contact
+                  Contato
                 </Link>
               </nav>
             </SheetContent>
@@ -55,21 +55,21 @@ const Navbar = () => {
               className="text-sm font-medium hover:underline underline-offset-4"
               prefetch={false}
             >
-              Work
+              Projetos
             </Link>
             <Link
               href="#"
               className="text-sm font-medium hover:underline underline-offset-4"
               prefetch={false}
             >
-              About
+              Sobre
             </Link>
             <Link
               href="#"
               className="text-sm font-medium hover:underline underline-offset-4"
               prefetch={false}
             >
-              Contact
+              Contato
             </Link>
           </nav>
         </div>
